@@ -1,0 +1,24 @@
+2 onions 
+5 scalops
+10 potatos
+
+3 - onions + scalops onions
+
+howto cook: bread, butter ; (
+    butter + bread soup
+    serve soup
+)
+
+if: onions < scalops; (
+    onions + scalops onions
+    serve onions
+)
+
+while: potatos < 100; (
+    potatos + 1 potatos
+)
+
+
+:potatos, onions; cook potatos
+
+serve potatos
